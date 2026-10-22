@@ -68,8 +68,7 @@ figure{
     border: 0.5px solid rgb(112, 136, 75, 95);
     border-radius: 5px;
     background-color: rgba(112, 136, 75, 0.8);
-    position:relative
-	white-space: nowrap;
+    position:relative;
 }
 
 h1{
@@ -102,5 +101,6 @@ section p{
 
 section figure p{
     color: rgb(251, 252, 251);
+	white-space: nowrap;
 }
 
