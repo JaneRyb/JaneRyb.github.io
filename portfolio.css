@@ -104,3 +104,9 @@ section figure p{
 	white-space: nowrap;
 }
 
+a{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    text-decoration: none;
+}
