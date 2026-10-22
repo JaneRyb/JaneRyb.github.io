@@ -62,7 +62,7 @@ section{
 }
 
 figure{
-    width: auto;
+    width: max-content !important;
     padding: 10px;
     margin: 0;
     border: 0.5px solid rgb(112, 136, 75, 95);
@@ -96,13 +96,11 @@ section p{
     color: rgb(0, 0, 0);
     font-size: 14px;
     font-family: Montserrat-Regular;
-    word-break: break-word;
 }
 
 section figure p{
+	width: auto;
     color: rgb(251, 252, 251);
 	white-space: nowrap;
-	word-break: normal;
-	width: auto;
 }
 
