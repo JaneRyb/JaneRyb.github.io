@@ -102,5 +102,6 @@ section p{
 section figure p{
     color: rgb(251, 252, 251);
 	white-space: nowrap;
+	word-break: normal;
 }
 
