@@ -1,0 +1,105 @@
+@font-face {
+    font-family: phorssa;
+    src: url(Phorssa.ttf);
+
+}
+
+@font-face {
+    font-family: Catallina;
+    src: url(Catallina.otf);
+
+}
+
+@font-face {
+    font-family: Krasnodar_Grotesk_Trial;
+    src: url(Krasnodar_Grotesk_Trial.otf);
+
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(Montserrat-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: SoyuzGroteskBold;
+    src: url(SoyuzGroteskBold.ttf);
+
+}
+
+body{
+    background-color: rgb(241, 243, 238);
+    color: rgb(27, 27, 27);
+}
+
+.card{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    padding: 80px;
+    border: 0.5px solid #b1b3b5;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.09);
+    border-radius: 70px;
+    position:relative
+}
+
+section{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.flex{
+    padding: 0;
+    display:flex;
+	flex-direction:row; 
+	flex-wrap:wrap; 
+    justify-content: center;
+    justify-content: flex-start;
+    gap: 15px;  
+}
+
+figure{
+    width: auto;
+    padding: 10px;
+    margin: 0;
+    border: 0.5px solid rgb(112, 136, 75, 95);
+    border-radius: 5px;
+    background-color: rgba(112, 136, 75, 0.8);
+    position:relative
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 60px;
+    display: grid;
+    place-items: center;
+    /* color: rgb(7, 17, 59); */
+    color: rgb(54, 85, 33);
+    font-size: 90px;
+    /* font-family:Krasnodar_Grotesk_Trial; */
+    font-family:Catallina;
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 7px;
+    font-size: 25px;
+    font-family:SoyuzGroteskBold;
+    color: rgb(86, 114, 45);
+}
+section p{
+    width: 70%;
+    margin: auto 0;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    /* display: inline-block; */
+}
+
+section figure p{
+    color: rgb(251, 252, 251);
+}
+
